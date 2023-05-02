@@ -4,7 +4,9 @@ from pages.base_page import BasePage
 
 
 class LoginPage(BasePage):
-
+    '''
+        Page object referente a pagina de login, e funções que foram abstraidas da Base Page
+    '''
     def __init__(self) -> None:
         self.driver = conftest.driver
         self.username_field = (By.ID, "username")

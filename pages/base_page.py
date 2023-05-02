@@ -3,6 +3,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 class BasePage:
+    '''
+        Classe para metódos genericos, para reutilização de código
+    '''
     def __init__(self) -> None:
         self.driver = conftest.driver
 
