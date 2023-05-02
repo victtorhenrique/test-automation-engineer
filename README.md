@@ -17,10 +17,10 @@ Todas as dependências utilizadas no projeto, estão salvas no arquivo requireme
 ```bash
 pip install -r requirements.txt
 ```
----
-### Execução dos casos de tests
 
-Acesse a pasta tests, no diretório existira uma pasta chamada login com os 3 scripts de testes para cada caso de teste.
+## Execução dos casos de tests
+---
+Acesse a pasta "tests". No diretório, existirá uma pasta chamada "login" com os 3 scripts de teste para cada caso de teste.
 
 ```bash
 cd tests\login
@@ -35,4 +35,13 @@ ou execução de um caso de teste especifico, uma unidade, exemplo:
 
 ```bash
 pytest -v -s .\test_negative_password.py
+```
+
+## Geração do relatorio dos testes
+
+Dentro da pasta de tests, execute o camando abaixo, e gerará o html report de todos os casos de testes dentro da pasta, para abrir basta clicar em "Abrir com Browser" ou em 
+um navagador de sua preferência:
+
+```bash
+pytest -v -s --html=AutomationPageObjectReport.html
 ```

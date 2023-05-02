@@ -11,7 +11,7 @@ def setup_teardown():
     #setup
     global driver
     driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
-    driver.implicitly_wait(15)
+    driver.implicitly_wait(30)
     driver.maximize_window()
 
 
