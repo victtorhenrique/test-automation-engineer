@@ -39,7 +39,7 @@ pytest -v -s .\test_negative_password.py
 
 ## Geração do relatorio dos testes
 
-Dentro da pasta de tests, execute o camando abaixo, e gerará o html report de todos os casos de testes dentro da pasta, para abrir basta clicar em "Abrir com Browser" ou em 
+Dentro da pasta de tests, execute o comando abaixo, e gerará o html report de todos os casos de testes dentro da pasta, para abrir basta clicar em "Abrir com Browser" ou em 
 um navagador de sua preferência:
 
 ```bash
