@@ -4,7 +4,9 @@ from pages.login_page import LoginPage
 @pytest.mark.usefixtures("setup_teardown")
 class TestCTNegativeUserName():    
     def test_ct_negative_user_name(self):
-
+        '''
+            Cenario de teste para validar mensagem de alerta com username incorreto!
+        '''
         expeted_message_error = "Your username is invalid!"
 
         login_page = LoginPage()

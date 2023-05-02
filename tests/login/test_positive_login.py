@@ -5,6 +5,11 @@ from pages.login_page import LoginPage
 @pytest.mark.usefixtures("setup_teardown")
 class TestCTPositiveLogin:
     def test_ct_positve_login(self):
+
+        '''
+            Cenario de teste para validar fluxo de login completo!
+        '''
+
         expected_url = "https://practicetestautomation.com/logged-in-successfully/"
         sucess_message = "Logged In Successfully"
 

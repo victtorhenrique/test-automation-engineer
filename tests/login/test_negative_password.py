@@ -5,6 +5,9 @@ from pages.login_page import LoginPage
 @pytest.mark.usefixtures("setup_teardown")
 class TestCTNegativePassword:
     def test_ct_negative_password(self):
+        '''
+            Cenario de teste para validar mensagem de alerta com password incorreto!
+        '''
 
         expeted_password_message_error = "Your password is invalid!"
 
